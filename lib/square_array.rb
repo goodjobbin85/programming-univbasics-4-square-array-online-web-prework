@@ -1,6 +1,7 @@
 def square_array(array)
   # your code here
-  array.collect do |element|
-    element * element
+  counter = 0 
+  while counter < array.size 
+    array[counter] * array[counter]
   end
 end
